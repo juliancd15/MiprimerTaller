@@ -1,5 +1,84 @@
 <resources>
-    <string name="app_name">myfirtsapp</string>
+    <string name="app_name">Financial App</string>
     <string name="mensajebienvenida">Hello my lord</string>
     <string name="descripcionimagen">tux imagen flight</string>
+    <string name="txt_mail">e-mail</string>
+    <string name="txt_password">Password</string>
+    <string name="boton_login">LogIn</string>
+
+    <string name="tx_view1">First Activity</string>
+    <string name="next_1">Next1</string>
+
+    <string name="previous_1">Previous1</string>
+    <string name="tx_view2">Second Activity</string>
+    <string name="Switch">Mostrar Logo</string>
+    <string name="next_2">Next2</string>
+
+    <string name="previous_2">Previous2</string>
+    <string name="tx_view3">Third Activity</string>
+    <string name="next_3">Next3</string>
+
+    <string name="previous_3">Previous3</string>
+    <string name="tx_view4">Fourth Activity</string>
+    <string name="next_4">Next4</string>
+
+    <string name="previous_4">Previous4</string>
+    <string name="tx_view5">Fifth Activity</string>
+
+
+    <string name="app_name2">Calculator - Table Layout</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="cero">0</string>
+
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="multiplication">*</string>
+    <string name="division">/</string>
+    <string name="iguals">=</string>
+
+    <string name="reset">Reset</string>
+    <string name="txt_view2">0</string>
+    <string name="todo">TODO</string>
+
+    // Menu 3
+
+    <string name="spinner_cargo">Cargo</string>
+    <string name="spinner_estado_civil">Estado civil</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="estado_civil">Estado civil</string>
+    <string name="cargo">Cargo</string>
+    <string name="icon22">icon22</string>
+
+    // Menu 4
+
+    <string name="app_name4">Constrain + Check Box</string>
+    <string name="txt_valor1">Registrar el primer valor</string>
+    <string name="txt_valor2">Registrar el segundo valor</string>
+    <string name="check_suma">Sumar</string>
+    <string name="check_resta">Restar</string>
+    <string name="button8">Calcular</string>
+    <string name="tv_resultado">Resultado</string>
+
+    // Menu 5
+
+    <string name="app_name5">Constrain + Radio Button + Radio Group</string>
+    <string name="txt_valor3">Registrar el primer valor</string>
+    <string name="txt_valor4">Registrar el segundo valor</string>
+    <string name="rb_suma">Sumar</string>
+    <string name="rb_resta">Restar</string>
+    <string name="button9">Calcular</string>
+    <string name="tv_resultadot">Resultado</string>
+
+
 </resources>

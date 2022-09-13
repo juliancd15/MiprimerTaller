@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"
+        android:onClick="Previous"
+        android:text="@string/previous_2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="91dp"
+        android:onClick="Next"
+        android:text="@string/next_3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/tx_view3" />
+
+    <EditText
+        android:id="@+id/input_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nombres"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/input_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_nombre"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="@string/apellidos"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/texto_estado_civil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/input_apellido"
+            android:layout_marginEnd="48dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp"
+            android:text="@string/estado_civil"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner_estado_civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto_estado_civil"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/spinner_cargo"
+        android:contentDescription="@string/spinner_estado_civil"
+        android:minHeight="48dp" />
+
+
+    <TextView
+        android:id="@+id/texto_cargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_apellido"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/texto_estado_civil"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:text="@string/cargo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinner_cargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto_cargo"
+        android:layout_alignStart="@+id/texto_cargo"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/spinner_cargo"
+        android:minHeight="48dp" />
+
+
+
+
+</RelativeLayout>
+
+
